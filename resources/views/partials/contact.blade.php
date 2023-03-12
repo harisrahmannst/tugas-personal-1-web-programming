@@ -1,4 +1,4 @@
-<section class="contact_form_container" id="contact">
+<section class="contact" id="contact">
     <div class="contact_info">
         <div class="container">
             <div class="row">
@@ -12,7 +12,7 @@
                                     alt=""></div>
                             <div class="contact_info_content">
                                 <div class="contact_info_title">Phone</div>
-                                <div class="contact_info_text">+91 9876 543 2198</div>
+                                <div class="contact_info_text">+6289 1234 5689</div>
                             </div>
                         </div>
 
@@ -24,7 +24,7 @@
                             </div>
                             <div class="contact_info_content">
                                 <div class="contact_info_title">Email</div>
-                                <div class="contact_info_text">contact@bbbootstrap.com</div>
+                                <div class="contact_info_text">support@driveid.co.id</div>
                             </div>
                         </div>
 
@@ -35,7 +35,7 @@
                             </div>
                             <div class="contact_info_content">
                                 <div class="contact_info_title">Address</div>
-                                <div class="contact_info_text">298,Menlo Park,CA,USA</div>
+                                <div class="contact_info_text">298, Jakarta, Indonesia</div>
                             </div>
                         </div>
 

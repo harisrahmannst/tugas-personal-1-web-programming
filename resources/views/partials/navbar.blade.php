@@ -18,13 +18,13 @@
                     <a class="nav-link" href="#instrukture">Instructure</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#schedule">Schedule</a>
+                    <a class="nav-link" href="#Schedule">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cars">Our Cars</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#pricing">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Our Cars</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact Us</a>
@@ -33,7 +33,3 @@
         </div>
     </div>
 </nav>
-<script src="js/bootstrap.bundle.min.js"></script>
-<!-- Navbar -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/smothscroll.js"></script>

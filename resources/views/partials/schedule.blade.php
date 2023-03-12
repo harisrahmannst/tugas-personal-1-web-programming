@@ -1,4 +1,4 @@
-<section class="scheduleclass" id="schedule">
+<section class="Scheduleclass" id="Schedule">
     <div class="container">
         <div class="w-95 w-md-75 w-lg-60 w-xl-55 mx-auto mb-6 text-center">
             <div class="subtitle alt-font"><span class="text-primary">Jadwal</span><span class="title"> Tranning</span>
@@ -24,7 +24,7 @@
                             <tr>
                                 <td class="day">Sunday</td>
                                 <td class="active">
-                                    <h4>Enterprise</h4>
+                                    <h4><span class="text-primary">Enterprise</span></h4>
                                     <p>10 am - 11 am</p>
                                     <div class="hover">
                                         <h4>Enterprise</h4>
@@ -64,90 +64,90 @@
                                     <div class="hover">
                                         <h4>Category A</h4>
                                         <p>11 am - 12 pm</p>
-                                        <span>Narry Jones</span>
+                                        <span>Marry Jones</span>
                                     </div>
                                 </td>
                                 <td class="active">
-                                    <h4>Karate</h4>
+                                    <h4>Category B</h4>
                                     <p>03 pm - 05 pm</p>
                                     <div class="hover">
-                                        <h4>Karate</h4>
+                                        <h4>Category B</h4>
                                         <p>03 pm - 05 pm</p>
-                                        <span>Lester Gray</span>
+                                        <span>Mike William</span>
                                     </div>
                                 </td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Crossfit</h4>
+                                    <h4><span class="text-primary">Enterprise</span></h4>
                                     <p>07 pm - 08 pm</p>
                                     <div class="hover">
-                                        <h4>Crossfit</h4>
+                                        <h4>Enterprise</h4>
                                         <p>07 pm - 08 pm</p>
-                                        <span>Candi Yip</span>
+                                        <span>Adam Nolan</span>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="day">Tuesday</td>
                                 <td class="active">
-                                    <h4>Spinning</h4>
+                                    <h4>Category B</h4>
                                     <p>10 am - 11 am</p>
                                     <div class="hover">
-                                        <h4>Spinning</h4>
+                                        <h4>Category B</h4>
                                         <p>10 am - 11 am</p>
-                                        <span>Mary Cass</span>
+                                        <span>Mike William</span>
                                     </div>
                                 </td>
                                 <td></td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Bootcamp</h4>
+                                    <h4><span class="text-primary">Enterprise</span></h4>
                                     <p>05 pm - 06 pm</p>
                                     <div class="hover">
-                                        <h4>Bootcamp</h4>
+                                        <h4>Enterprise</h4>
                                         <p>05 pm - 06 pm</p>
-                                        <span>Brenda Mastropietro</span>
+                                        <span>Adam Nolan</span>
                                     </div>
                                 </td>
                                 <td class="active">
-                                    <h4>Boxercise</h4>
+                                    <h4>Category A</h4>
                                     <p>07 pm - 08 pm</p>
                                     <div class="hover">
-                                        <h4>Boxercise</h4>
+                                        <h4>Category A</h4>
                                         <p>07 pm - 08 pm</p>
-                                        <span>Marlene Bruce</span>
+                                        <span>Marry Jones</span>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="day">Wednesday</td>
                                 <td class="active">
-                                    <h4>Body Building</h4>
+                                    <h4><span class="text-primary">Enterprise</span></h4>
                                     <p>10 am - 12 pm</p>
                                     <div class="hover">
-                                        <h4>Body Building</h4>
+                                        <h4>Enterprise</h4>
                                         <p>10 am - 12 pm</p>
-                                        <span>Brenda Hester</span>
+                                        <span>Adam Nolan</span>
                                     </div>
                                 </td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Dance</h4>
+                                    <h4>Category A</h4>
                                     <p>03 pm - 05 pm</p>
                                     <div class="hover">
-                                        <h4>Dance</h4>
+                                        <h4>Category A</h4>
                                         <p>03 pm - 05 pm</p>
-                                        <span>Brian Ashworth</span>
+                                        <span>Marry Jones</span>
                                     </div>
                                 </td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Health</h4>
+                                    <h4>Category B</h4>
                                     <p>07 pm - 08 pm</p>
                                     <div class="hover">
-                                        <h4>Health</h4>
+                                        <h4>Category B</h4>
                                         <p>07 pm - 08 pm</p>
-                                        <span>Mark Croteau</span>
+                                        <span>Mike William</span>
                                     </div>
                                 </td>
                             </tr>
@@ -155,22 +155,22 @@
                                 <td class="day">Thursday</td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Bootcamp</h4>
+                                    <h4>Category B</h4>
                                     <p>11 am - 12 pm</p>
                                     <div class="hover">
-                                        <h4>Bootcamp</h4>
+                                        <h4>Category B</h4>
                                         <p>1 am - 12 pm</p>
-                                        <span>Elisabeth Schreck</span>
+                                        <span>Mike William</span>
                                     </div>
                                 </td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Boday Building</h4>
+                                    <h4><span class="text-primary">Enterprise</span></h4>
                                     <p>05 pm - 06 pm</p>
                                     <div class="hover">
-                                        <h4>Boday Building</h4>
+                                        <h4>Enterprise</h4>
                                         <p>05 pm - 06 pm</p>
-                                        <span>Edward Garcia</span>
+                                        <span>Adam Nolan</span>
                                     </div>
                                 </td>
                                 <td></td>
@@ -178,32 +178,32 @@
                             <tr>
                                 <td class="day">Friday</td>
                                 <td class="active">
-                                    <h4>Racing</h4>
+                                    <h4>Category A</h4>
                                     <p>10 am - 11 am</p>
                                     <div class="hover">
-                                        <h4>Racing</h4>
+                                        <h4>Category A</h4>
                                         <p>10 am - 11 am</p>
-                                        <span>Jackie Potts</span>
+                                        <span>Marry Jones</span>
                                     </div>
                                 </td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Energy Blast</h4>
+                                    <h4><span class="text-primary">Enterprise</span></h4>
                                     <p>03 pm - 05 pm</p>
                                     <div class="hover">
-                                        <h4>Energy Blast</h4>
+                                        <h4>Enterprise</h4>
                                         <p>03 pm - 05 pm</p>
-                                        <span>Travis Brown</span>
+                                        <span>Adam Nolan</span>
                                     </div>
                                 </td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Jumping</h4>
+                                    <h4>Category B</h4>
                                     <p>07 pm - 08 pm</p>
                                     <div class="hover">
-                                        <h4>Jumping</h4>
+                                        <h4>Category B</h4>
                                         <p>07 pm - 08 pm</p>
-                                        <span>Benjamin Barnett</span>
+                                        <span>Mike William</span>
                                     </div>
                                 </td>
                             </tr>
@@ -212,21 +212,21 @@
                                 <td></td>
                                 <td></td>
                                 <td class="active">
-                                    <h4>Aerobics</h4>
+                                    <h4><span class="text-primary">Enterprise</span></h4>
                                     <p>03 pm - 04 pm</p>
                                     <div class="hover">
-                                        <h4>Aerobics</h4>
+                                        <h4>Enterprise</h4>
                                         <p>03 pm - 04 pm</p>
-                                        <span>Andre Walls</span>
+                                        <span>Adam Nolan</span>
                                     </div>
                                 </td>
                                 <td class="active">
-                                    <h4>Cycling</h4>
+                                    <h4>Category A</h4>
                                     <p>05 pm - 06 pm</p>
                                     <div class="hover">
-                                        <h4>Cycling</h4>
+                                        <h4>Category A</h4>
                                         <p>05 pm - 06 pm</p>
-                                        <span>Margaret Thomas</span>
+                                        <span>Marry Jones</span>
                                     </div>
                                 </td>
                                 <td></td>
