@@ -54,19 +54,43 @@
                     <div class="contact_form_container">
                         <div class="contact_form_title">Get in Touch</div>
 
-                        <form action="#" id="contact_form">
+                        <form action="/" id="contact_form" method="post">
+                            @csrf
+                            @error('name')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+                            @error('email')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+                            @error('telp')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+
+                            @if (session()->has('success'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    {{ session('success') }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
+                                </div>
+                            @endif
                             <div
                                 class="contact_form_inputs d-flex flex-md-row flex-column justify-content-between align-items-between">
-                                <input type="text" id="contact_form_name" class="contact_form_name input_field"
-                                    placeholder="Your name" required="required" data-error="Name is required.">
-                                <input type="text" id="contact_form_email" class="contact_form_email input_field"
-                                    placeholder="Your email" required="required" data-error="Email is required.">
-                                <input type="text" id="contact_form_phone" class="contact_form_phone input_field"
-                                    placeholder="Your phone number">
+                                <input type="text" id="contact_form_name" name="name"
+                                    class="contact_form_name input_field @error('name') is-invalid @enderror"
+                                    placeholder="Your name" required="required" value="{{ old('name') }}">
+
+                                <input type="text" id="contact_form_email" name="email"
+                                    class="contact_form_email input_field @error('email') is-invalid @enderror"
+                                    placeholder="Your email" required="required" value="{{ old('email') }}"">
+
+                                <input type="text" id="contact_form_phone" name="telp"
+                                    class="contact_form_phone input_field @error('telp') is-invalid @enderror"
+                                    placeholder="Your phone number" required="required" value="{{ old('telp') }}">
                             </div>
+
                             <div class="contact_form_text">
-                                <textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4"
-                                    placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
+                                <textarea id="contact_form_message" class="text_field contact_form_message" name="pesan" rows="4"
+                                    placeholder="Message" required="required" value="{{ old('title') }}"></textarea>
                             </div>
                             <div class="contact_form_button">
                                 <button type="submit" class="button contact_submit_button">Send Message</button>
