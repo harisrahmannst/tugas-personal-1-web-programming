@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    color: black;
+    line-height: 1.4;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.247);
+    font-family: Georgia, serif;
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  }
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.moto-widget {
+  padding-top: 10rem;
+}
+
+.hero{
+      display: flex;
+      flex-direction: column;
+      background-image:url(/img/bg.jpg);
+      height: 100vh;
+      align-self: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h2{
+      color: orange;
+    }
